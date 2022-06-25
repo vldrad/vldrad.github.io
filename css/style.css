@@ -1,0 +1,40 @@
+@font-face{
+    font-family: KTF;
+    src:url("../font/KTF.woff") format("woff"),
+        url("../font/KTF.woff2") format("woff2"),
+        url("../font/KTF.ttf") format("ttf");
+}
+@font-face{
+    font-family: Volja;
+    src:url("../font/Volja.otf") format("otf"),
+        url("../font/Volja.woff2") format("woff2");
+}
+body {
+    background-color: lightgoldenrodyellow;
+}
+h1 {
+    font-size: 50px;
+    color: black;
+    font-family: Volja;
+    text-shadow: 2px 1px 0px green,4px 2px 0px #ecf00a, 6px 3px 0px red;
+}
+li {
+    font-size: 25px;
+    font-family: KTF;
+    text-align: center;
+    text-decoration:overline;
+    line-height: 100px;
+}
+h2 {
+    font-size: 20px;
+    color: #10c4b8;
+    font-family: Volja;
+    text-align:center;
+    text-shadow: 1px 1px 1px #000, 1px 1px 10px #000;
+}
+.vmax {
+    font-size: 5vmax;
+}
+.vmax2 {
+    font-size: 2vmax;
+}
