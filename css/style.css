@@ -12,11 +12,17 @@
 body {
     background-image: url("../image/background.jpg");
 }
-h1 {
+/* h1 {
     font-size: 50px;
     color: lightgrey;
     font-family: Volja;
     text-shadow: 2px 1px 0px green,4px 2px 0px #ecf00a, 6px 3px 0px red;
+} */
+h1 {
+    font-size: 50px;
+    color: #10c4b8;
+    font-family: Volja;
+    text-shadow: 1px 1px 1px #000, 1px 1px 10px #000;
 }
 ul.list li a {
     font-family: KTF;
