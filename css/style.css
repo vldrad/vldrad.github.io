@@ -43,6 +43,7 @@ fieldset label {
     text-shadow: 0px 0px 10px green;
     font-family: KTF;
 }
+/*MUSIC PAGE*/
 .mgame {
     text-align:center;
     font-size: 25px;
@@ -61,6 +62,7 @@ fieldset label {
     box-shadow: 0px 0px 10px 3px green;
     border-radius: 10px;
 }
+/*CLICK ON PHOTO*/
 .canclick {
     color: whitesmoke;
     text-shadow: 0px 0px 10px green;
@@ -89,38 +91,40 @@ fieldset label {
 .menu {
     text-align: center;
 }
-.contacts {
+/*MY CONTACTS*/
+.contacts_1{
     display: inline-block;
     border: 1px solid whitesmoke;
     border-radius: 10px;
+    position: relative;
+    top: 100px;
 }
-.vid_1 {
+.contacts_2{
     display: inline-block;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+/*VIDEO PAGE*/
+.vid_1 {
     border: 2px solid whitesmoke;
     box-shadow: 0px 0px 10px 0px green;
     border-radius: 10px;
+    position: relative;
+    height: 460px;
+    width: 600px;
+    margin: 0 auto;
 }
 .vid_2 {
-    display:inline-block;
-    text-align: center;
-    margin: 50px;
-    padding: 10px;
-    width: 170px;
-}
-.vid {
-    text-align: center;
-}
-.vid_rate {
-    text-align: center;
-}
-.vid_check {
     display: inline-block;
-    box-sizing:border-box;
-    border: 2px solid whitesmoke;
-    padding: 10px;
-    border-radius: 10px;
-    
+    position: absolute;
+    width: 300px;
+    top: 130px;
+    left: 300px;
 }
+/*PICTURES*/
 .pics {
     text-align: center;
 }
