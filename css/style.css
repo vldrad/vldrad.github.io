@@ -50,9 +50,14 @@ fieldset label {
     border: 2px solid whitesmoke;
     box-shadow: 0px 0px 10px 3px green;
     display: inline-block;
-    margin: 10px;
     padding: 10px;
     border-radius: 10px;
+}
+.mgame form p input {
+    font-family: KTF;
+    color: whitesmoke;
+    text-shadow: 0px 0px 10px green;
+    background-color: grey;
 }
 .m_rates {
     display: inline-block;
