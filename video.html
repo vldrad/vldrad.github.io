@@ -11,41 +11,45 @@
 <body>
     <p><a href="index.html"><img title="Main page" alt="Main page" src="image/main.png" height="35" width="35"/></a></p>
     <h2 class="vmax2">Take a look at this funny video with cat!</h2>
-    <p style="text-align: center;">
-        <video controls="controls" loop="loop"  poster="image/kot.jpg" height="500" width="300">
-            <source src="video/kot.mp4" type="video/mp4"/>
-            <source src="video/kot.ogv" type="video/ogv"/>
-            <source src="video/kot.webm" type="video/webm"/>
-        </video>
-    </p>
-    <fieldset>
-    <legend><b>Please, take a minute and rate this video!</b></legend>
-        <form>
-            <p>
-                <label for="1">BORING!</label>
-                <input type="radio" name="videorate" id="1"/>
-            </p>
-            <p>
-                <label for="2">Can be better...</label>
-                <input type="radio" name="videorate" id="2"/>
-            </p>
-            <p>
-                <label for="3">Its okay</label>
-                <input type="radio" name="videorate" id="3"/>
-            </p>
-            <p>
-                <label for="4">Funny ^_^</label>
-                <input type="radio" name="videorate" id="4"/>
-            </p>
-            <p>
-                <label for="5">ITS AWESOME!!!</label>
-                <input type="radio" name="videorate" id="5"/>
-            </p>
-            <p>
-                <input type="submit"/>
-                <input type="reset"/> 
-            </p>
-        </form>
-    </fieldset>
+    <div class="vid">
+        <div class="vid_1">
+            <video controls="controls" loop="loop"  poster="image/kot.jpg" height="450" width="300">
+                <source src="video/kot.mp4" type="video/mp4"/>
+                <source src="video/kot.ogv" type="video/ogv"/>
+                <source src="video/kot.webm" type="video/webm"/>
+            </video>
+        </div>
+        <div class="vid_2">
+            <fieldset>
+            <legend><b>Please, take a minute and rate this video!</b></legend>
+                <form>
+                <p>
+                    <label for="1">BORING!</label>
+                    <input type="radio" name="videorate" id="1"/>
+                </p>
+                <p>
+                    <label for="2">Can be better...</label>
+                    <input type="radio" name="videorate" id="2"/>
+                </p>
+                <p>
+                    <label for="3">Its okay</label>
+                    <input type="radio" name="videorate" id="3"/>
+                </p>
+                <p>
+                    <label for="4">Funny ^_^</label>
+                    <input type="radio" name="videorate" id="4"/>
+                </p>
+                <p>
+                    <label for="5">ITS AWESOME!!!</label>
+                    <input type="radio" name="videorate" id="5"/>
+                </p>
+                <p>
+                    <input type="submit" value="SEND"/>
+                    <input type="reset" value="RESET"/> 
+                </p>
+            </form>
+            </fieldset>
+            </div>
+        </div>
 </body>
 </html>

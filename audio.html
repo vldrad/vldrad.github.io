@@ -13,7 +13,7 @@
     <h2 class="vmax2">On this page we will play a little game!</h2>
     <fieldset>
     <legend><b>Lets check how good you are in knowledge about old good songs! Listen to each composition and try to write name and author!</b></legend>
-        <p class="mgame">
+        <div class="mgame">
             <label><b>First song:</b></label>
             <br />
             <audio controls="controls">
@@ -22,7 +22,6 @@
                 <source src="audio/1.wav" type="audio/wav"/>
             </audio>
             <br />
-            <hr />
             <form target="GET">
                 <p>
                     <label>Name of song:</label>
@@ -32,10 +31,9 @@
                     <label>Name of author:</label>
                     <input type="text"/>
                 </p>
-                <hr />
             </form>
-        </p>
-        <p class="mgame">
+        </div>
+        <div class="mgame">
             <label><b>Second song:</b></label>
             <br />
             <audio controls="controls">
@@ -44,7 +42,6 @@
                 <source src="audio/2.wav" type="audio/wav"/>
             </audio>
             <br />
-            <hr />
             <form target="GET">
                 <p>
                     <label>Name of song:</label>
@@ -54,10 +51,9 @@
                     <label>Name of author:</label>
                     <input type="text"/>
                 </p>
-            <hr />
             </form>
-        </p>
-        <p class="mgame">
+        </div>
+        <div class="mgame">
             <label><b>Third song:</b></label>
             <br />
             <audio controls="controls">
@@ -66,7 +62,6 @@
                 <source src="audio/3.wav" type="audio/wav"/>
             </audio>
             <br />
-            <hr />
             <form target="GET">
                 <p>
                     <label>Name of song:</label>
@@ -77,18 +72,23 @@
                     <input type="text"/>
                 </p>
             </form>
-        </p>
+        </div>
     </fieldset>
-    <fieldset>
-    <legend><b>What song do you like the most?</b></legend>
+    <div style="text-align: center;">
+        <fieldset>
+        <legend><b>What song do you like the most?</b></legend>
+            <div class="m_rates">
                 <select>
                     <option>First one</option>
                     <option>Second one</option>
                     <option>Third one</option>
                 </select>
-        </p>
-    </fieldset>
-        <input type="submit"/>
-        <input type="reset"/>
+            </div>
+            <div class="m_rates">
+                <input type="submit" value="SEND"/>
+                <input type="reset" value="RESET"/>
+            </div>
+        </fieldset>
+    </div>
 </body>
 </html>
