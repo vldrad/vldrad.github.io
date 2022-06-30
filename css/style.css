@@ -52,6 +52,7 @@ fieldset label {
     display: inline-block;
     padding: 10px;
     border-radius: 10px;
+    background: black;
 }
 .mgame form p input {
     font-family: KTF;
@@ -66,6 +67,7 @@ fieldset label {
     border: 2px solid whitesmoke;
     box-shadow: 0px 0px 10px 3px green;
     border-radius: 10px;
+    background: black;
 }
 /*CLICK ON PHOTO*/
 .canclick {
@@ -86,6 +88,7 @@ fieldset label {
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 3px green;
+    background: black;
 }
 .list a {
     text-decoration: none;
@@ -103,6 +106,7 @@ fieldset label {
     border-radius: 10px;
     position: relative;
     top: 100px;
+    background: black;
 }
 .contacts_2{
     display: inline-block;
@@ -111,6 +115,7 @@ fieldset label {
     position: relative;
     top: 100px;
     left: 20px;
+    background: black;
 }
 /*VIDEO PAGE*/
 .vid_1 {
@@ -121,6 +126,7 @@ fieldset label {
     height: 460px;
     width: 600px;
     margin: 0 auto;
+    background: black;
 }
 .vid_2 {
     display: inline-block;
@@ -144,4 +150,7 @@ fieldset label {
     box-shadow: 0px 0px 10px 0px green;
     margin: 5px;
     border-radius: 10px;
+}
+fieldset {
+    background: black;
 }
