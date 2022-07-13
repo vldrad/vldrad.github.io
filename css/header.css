@@ -61,27 +61,6 @@ header .top input {
     justify-content: center;
     align-items: center;
 }
-.banner div {
-    
-}
-.banner div p {
-    font-family: Banner;
-    color: white;
-    text-shadow: 0 2px 3px black;
-}
-.banner div p:first-child {
-    font-size: 50px;
-    text-indent: 400px;
-    color: white;
-    text-shadow: 3px 3px 1px black;
-}
-.banner div p:last-child {
-    font-size: 60px;
-    color: white;
-    text-shadow: 3px 3px 1px black;
-    text-indent: 200px;
-    transform: rotate(-5deg);
-}
 header nav {
     background: black;
     padding: 10px 0 4px;
@@ -101,7 +80,7 @@ header nav ul li {
 }
 header nav ul li a {
     color: whitesmoke;
-    font-size: 25px;
+    font-size: 40vm;
     text-decoration: none;
     font-family: banner;
 }
