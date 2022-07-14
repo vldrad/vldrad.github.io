@@ -71,8 +71,8 @@ header nav ul li {
     list-style-type: none;
     padding: 10px 0;
     text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 25px;
+    margin-right: 20px;
     transition: 0.5s;
 }
 header nav ul li a {
