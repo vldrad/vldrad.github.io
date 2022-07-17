@@ -12,7 +12,7 @@
     justify-content: space-between;
 }
 .content_left {
-    flex-basis: 45%;
+    flex-basis: 30%;
 }
 .content_left section {
     background: whitesmoke;
@@ -86,19 +86,20 @@
     transform: rotate(10deg);
 }
 .content_right {
-    flex-basis: 54;
+    flex-basis: 69%;
     padding: 4px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: Lora;;
+    font-family: Lora;
 }
 .content_right .top {
     background: whitesmoke;
     color: black;
-    flex-basis: 31%;
+    flex-basis: 30%;
     padding: 15px;
     position: relative;
+    box-sizing: border-box;
 }
 .content_right .top p {
     line-height: 25px;
@@ -121,4 +122,5 @@
 }
 .content_right .bottom {
     border: 2px solid red;
+    flex-basis: 58%;
 }
