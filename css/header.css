@@ -37,7 +37,7 @@ header .top {
     display: flex;
     position: relative;
     bottom: 10px;
-    right: 25px;
+    right: 25px;     
 }
 .logo p span:last-child {
     font-family: Logo;
@@ -66,14 +66,15 @@ header nav ul {
     display: flex;
     justify-content: center;
     margin: 0;
+    padding: 0;
 }
 header nav ul li {
     list-style-type: none;
     padding: 10px 0;
     text-align: center;
-    margin-left: 25px;
-    margin-right: 20px;
-    transition: 0.5s;
+    margin-left: 3%;
+    margin-right: 3%;
+    transition: 0.5s; 
 }
 header nav ul li a {
     color: whitesmoke;

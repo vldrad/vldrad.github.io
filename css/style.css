@@ -1,1 +1,124 @@
 @import url("header.css");
+@font-face { 
+    font-family: Lora;
+    src: url("../font/Lora-SemiBold.ttf") format("ttf");
+    src: url("../font/Lora-SemiBold.woff") format("woff");
+    src: url("../font/Lora-SemiBold.woff2") format("woff2");
+}
+.content {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.content_left {
+    flex-basis: 45%;
+}
+.content_left section {
+    background: whitesmoke;
+    padding: 4px;
+    margin-top: 4px;
+}
+.content_left section h3 {
+    color: orange;
+    background: seagreen;
+    text-shadow: 2px 1px 1px black, 3px 2px 1px red;
+    font-size: 16px;
+    padding: 3px 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+.content_left section h3:before {
+    content: url("../image/fire.png");
+}
+.content_left article {
+    display: flex;
+    width: 90%;
+    margin: 15px auto;
+    padding: 15px 10px;
+    border-bottom: 2px groove white;
+}
+.content_left article p {
+    color: black;
+    margin: 0;
+}
+.content_left article img {
+    height: 100px;
+    width: 100px;
+    border: 2px solid seagreen;
+    margin-right: 10px;
+}
+.content_left article p a {
+    color: seagreen;
+    font-family: Lora;
+    text-decoration: none;
+    text-align: center;
+}
+.content_left .bottom {
+    background: url("../image/promo.png") no-repeat center;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border: 2px solid white;
+}
+.content_left .bottom .left p{
+    text-transform: uppercase;
+    font-family: Banner;
+    font-size: 15px;
+    color: black;
+    margin: 0;
+    text-shadow: 1px 1px 1px red;
+    margin: 10px auto;
+    text-align: center;
+}
+.content_left .bottom .left p span {
+    font-size: 15px;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
+.content_left .bottom .right p{
+    color: red;
+    font-size: 40px;
+    margin: 0px;
+    font-family: Banner;
+    text-shadow: 1px 1px 1px black;
+    height: 50px;
+    transform: rotate(10deg);
+}
+.content_right {
+    flex-basis: 54;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Lora;;
+}
+.content_right .top {
+    background: whitesmoke;
+    color: black;
+    flex-basis: 31%;
+    padding: 15px;
+    position: relative;
+}
+.content_right .top p {
+    line-height: 25px;
+}
+.content_right .top h2 {
+    font-size: 30px;
+    text-align: center;
+    color: seagreen;
+    font-family: Banner;
+    text-shadow: 1px 1px 1px black;
+}
+.content_right .top a {
+    color: blueviolet;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-family: Lora;
+    font-size: 15px;
+}
+.content_right .bottom {
+    border: 2px solid red;
+}
