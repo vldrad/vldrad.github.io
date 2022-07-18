@@ -1,4 +1,5 @@
 @import url("header.css");
+@import url("bottom.css");
 @font-face { 
     font-family: Lora;
     src: url("../font/Lora-SemiBold.ttf") format("ttf");
@@ -87,11 +88,12 @@
 }
 .content_right {
     flex-basis: 69%;
-    padding: 4px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-family: Lora;
+    padding: 4px;
+    box-sizing: content-box;
 }
 .content_right .top {
     background: whitesmoke;
@@ -107,9 +109,12 @@
 .content_right .top h2 {
     font-size: 30px;
     text-align: center;
-    color: seagreen;
+    color: whitesmoke;
+    background: seagreen;
     font-family: Banner;
     text-shadow: 1px 1px 1px black;
+    margin-left: -5px;
+    margin-right: -5px;
 }
 .content_right .top a {
     color: blueviolet;
@@ -120,7 +125,6 @@
     font-family: Lora;
     font-size: 15px;
 }
-.content_right .bottom {
-    border: 2px solid red;
-    flex-basis: 58%;
+.content_right .top a:hover {
+    text-decoration: underline;
 }
