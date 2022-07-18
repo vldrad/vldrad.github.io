@@ -7,6 +7,7 @@
     src: url("../font/Lora-SemiBold.woff2") format("woff2");
 }
 .content {
+    margin-top: 0;
     margin-left: 40px;
     margin-right: 40px;
     display: flex;

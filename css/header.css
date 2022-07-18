@@ -58,60 +58,153 @@ header .top input {
     justify-content: center;
     align-items: center;
 }
-header nav {
-    background: black;
-    padding: 10px 0 4px;
-}
-header nav ul {
+.menu {
+    overflow: hidden;
+    background-color: black;
+    font-family: Banner;
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding: 0;
+    padding: 5px;
 }
-header nav ul li {
-    list-style-type: none;
-    padding: 10px 0;
+.menu a {
+    font-size: 16px;
+    color: white;
     text-align: center;
-    margin-left: 3%;
-    margin-right: 3%;
-    transition: 0.5s; 
-}
-header nav ul li a {
-    color: whitesmoke;
-    font-size: 40vm;
+    padding: 14px 16px;
     text-decoration: none;
-    font-family: Banner;
 }
-header nav ul li:hover {
-    transform: scale(1.5);
+.xbox_m {
+    float: left;
+    overflow: hidden;
 }
-.menu_m a {
-    transition: 0.5s;
+.xbox_m .xboxbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
 }
-.menu_m a:hover {
+.menu_a:hover, .xbox_m:hover .xboxbtn {
+    background-color: green;
+    border-radius: 10px 10px 0 0;
+}
+.xbox_m_1 {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.xbox_m_1 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    transition: 0.25s;
+}
+.xbox_m_1 a:hover {
+    color: green;
+    transform: scale(1.1);
+}
+.xbox_m:hover .xbox_m_1 {
+    display: block;
+    border-radius: 0 10px 10px 10px;
+}
+.play_m {
+    float: left;
+    overflow: hidden;
+}
+.play_m .playbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.menu_a:hover, .play_m:hover .playbtn {
+    background-color: blue;
+    border-radius: 10px 10px 0 0;
+}
+.play_m_1 {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.play_m_1 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    transition: 0.25s;
+}
+.play_m_1 a:hover {
+    color: blue;
+    transform: scale(1.1);
+}
+.play_m:hover .play_m_1 {
+    display: block;
+    border-radius: 0 10px 10px 10px;
+}
+.nin_m {
+    float: left;
+    overflow: hidden;
+}
+.nin_m .ninbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.menu_a:hover, .nin_m:hover .ninbtn {
+    background-color: red;
+    border-radius: 10px 10px 0 0;
+}
+.nin_m_1 {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.nin_m_1 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    transition: 0.25s;
+}
+.nin_m_1 a:hover {
+    color: red;
+    transform: scale(1.1);
+}
+.nin_m:hover .nin_m_1 {
+    display: block;
+    border-radius: 0 10px 10px 10px;
+}
+.menu > a:hover:first-child {
     color: lightblue;
 }
-.xbox_m a {
-    transition: 0.5s;
-}
-.xbox_m a:hover {
-    color: green;
-}
-.playstation_m a {
-    transition: 0.5s;
-}
-.playstation_m a:hover {
-    color: blue;
-}
-.nintendo_m a {
-    transition: 0.5s;
-}
-.nintendo_m a:hover {
-    color: red;
-}
-.others_m a {
-    transition: 0.5s;
-}
-.others_m a:hover {
+.menu > a:hover:last-child {
     color: pink;
 }
